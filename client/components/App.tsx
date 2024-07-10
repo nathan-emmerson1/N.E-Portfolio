@@ -1,10 +1,27 @@
+
+import AboutMe from "./Aboutme"
+import Contact from "./Contact"
+import Footer from "./Footer"
+import Nav from "./Nav"
+import ProjectList from "./Projects"
+
 function App() {
+  console.log('on the app ')
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
+    <div className="bg-gray-100">
+    <Nav />
+    <AboutMe />
+    <ProjectList />
+    <Contact />
+    <Footer />
+    
     </div>
+
+
   )
 }
+
+  
+
 
 export default App
