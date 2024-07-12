@@ -40,7 +40,7 @@ function Nav() {
                   </a>
                 </li>
                 <li>
-                  <a>Instagram</a>
+                  <a href="https://x.com/NTEmmerson">Twitter</a>
                 </li>
               </ul>
             </li>
@@ -74,7 +74,7 @@ function Nav() {
               <ul className="p-2">
                 <li>
                   <a href="https://www.linkedin.com/in/nathan-emmerson-1b4705316/">
-                    joij
+                    Linkden
                   </a>
                 </li>
                 <li>

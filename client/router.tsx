@@ -8,6 +8,7 @@ import App from './components/App'
 import AboutMe from './components/Aboutme'
 import Contact from './components/Contact'
 import ProjectList from './components/Projects'
+import NeibourGood from './components/NeibourGoods'
 
 const router = createBrowserRouter(
   createRoutesFromElements([
@@ -15,7 +16,9 @@ const router = createBrowserRouter(
     <Route index element={<App />} />,
     <Route path='/about' element={<AboutMe />} />,
     <Route path='/contact' element={<Contact />} />,
-    <Route path='/projects' element={<ProjectList />} />
+    <Route path='/projects' element={<ProjectList />} />,
+    <Route path='/neigbourgoods' element={<NeibourGood />} />,
+    <Route path='/aboutme' element={<AboutMe />} />,
   
   ])
 )
