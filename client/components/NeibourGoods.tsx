@@ -47,19 +47,19 @@ function NeibourGood() {
                 </ul>
               </li>
               <li>
-                <Link to={'#about'}>
+                <Link to={'#projects'}>
                   {' '}
                   <div>Projects</div>{' '}
                 </Link>
               </li>
             </ul>
           </div>
-          <Link to={'/'} ><div className="btn btn-ghost text-3xl">N.E</div> </Link>
+          <Link to={'/#about'} ><div className="btn btn-ghost text-3xl">N.E</div> </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-             <Link to={'/projects'}> <div className='text-xl'>
+             <Link to={'/#projects'}> <div className='text-xl'>
                 Projects
               </div>
               </Link>

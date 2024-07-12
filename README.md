@@ -1,26 +1,20 @@
-# Phase 1 Boilerplate
+🙏 Hi, I’m Nathan Emmerson.
 
-## Packages Included
+🔨 Full-Stack Developer, passionate about building tech that will help build a better future.
 
-- react
-- react-router-dom
-- @tanstack/react-query
-- vite
-- vitest
-- eslint
+📢 Skilled with TypeScript, React, JS, HTML, CSS, Node.js, Git, SQLite/Knex.
 
-## Setup
+🌄 I live in Gisborne, NZ, with my partner and daughter.
 
-- [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>Tip</summary>
+🌊 We love our beach walks.
 
-    ```sh
-    npm install
-    npm run dev
-    ```
-  </details>
+📧 How to reach me: nathanemmerson07@gmail.com
 
----
+I graduated from Dev Academy in July 2024.
 
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-phase1)
+Check out some projects I've been working on:
+
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+
+## GitHub
+https://github.com/nathan-emmerson1
