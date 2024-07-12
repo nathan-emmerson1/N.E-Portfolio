@@ -8,12 +8,11 @@ import ProjectList from './Projects'
 function App() {
   console.log('on the app ')
   return (
-    <div className="bg-glass min-h-screen">
+    <div className="bg-glass">
       <Nav />
       <Home />
       <AboutMe />
       <ProjectList />
-      <Contact />
       <Footer />
     </div>
   )

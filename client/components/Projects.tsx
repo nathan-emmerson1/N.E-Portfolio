@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function ProjectList() {
   return (
     <div className="hero min-h-screen" id="projects">
@@ -14,16 +16,16 @@ function ProjectList() {
           <button className="btn btn-primary">Get Started</button>
           <br></br>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-8">
-            <a href="https://neighbour-goods.vercel.app/">
+            <Link to={'/neigbourgoods'}> <a href="https://neighbour-goods.vercel.app/">
               {' '}
               <div className="h-32  rounded-lg bg-blue-300 content-center">
                 <img
                   src="./images/neibourgoodslogo.png"
                   alt="neibourgoodlogo"
                  
-                ></img>
+                ></img> 
               </div>{' '}
-            </a>
+            </a> </Link>
             <div className="h-15 rounded-lg bg-yellow-300 content-center">
               <img
                 src="./images/otherpokemon.png"
