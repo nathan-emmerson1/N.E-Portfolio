@@ -2,6 +2,7 @@ import AboutMe from './Aboutme'
 import Contact from './Contact'
 import Footer from './Footer'
 import Nav from './Nav'
+import Home from './Home'
 import ProjectList from './Projects'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="bg-glass min-h-screen">
       <Nav />
+      <Home />
       <AboutMe />
       <ProjectList />
       <Contact />

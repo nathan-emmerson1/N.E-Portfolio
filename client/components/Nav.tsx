@@ -32,7 +32,7 @@ function Nav() {
               <a href="https://github.com/nathan-emmerson1">Github</a>
             </li>
             <li>
-              <a>Socials</a>
+              <button>Socials</button>
               <ul className="p-2">
                 <li>
                   <a href="https://www.linkedin.com/in/nathan-emmerson-1b4705316/">
@@ -54,37 +54,45 @@ function Nav() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="#projects" className='text-xl'>Projects</a>
+            <a href="#projects" className="text-xl">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact" className='text-xl'>Contact</a>
+            <a href="#contact" className="text-xl">
+              Contact
+            </a>
           </li>
           <li>
-            <a href="https://github.com/nathan-emmerson1" className='text-xl'>Github</a>
+            <a href="https://github.com/nathan-emmerson1" className="text-xl">
+              Github
+            </a>
           </li>
           <li>
             <details>
-              <summary className='text-xl'>Socials</summary>
+              <summary className="text-xl">Socials</summary>
               <ul className="p-2">
                 <li>
-                  <a href='https://www.linkedin.com/in/nathan-emmerson-1b4705316/'>
+                  <a href="https://www.linkedin.com/in/nathan-emmerson-1b4705316/">
                     joij
                   </a>
                 </li>
                 <li>
-                  <a>Instagram</a>
+                  <a href="https://x.com/NTEmmerson">Twitter</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a href="#about" className='text-xl'>About me</a>
+            <a href="#about" className="text-xl">
+              About me
+            </a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
         <a
-          href="https://drive.google.com/file/d/181OVtzImhrEdtTglk5hdsDDdFSiGgQ2Y/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ptl9qfTkRXy_fNJqonuBd2UHMH2WwJlC/view?usp=sharing"
           className="btn"
         >
           Resume
