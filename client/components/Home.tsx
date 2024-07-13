@@ -1,7 +1,5 @@
 function Home() {
-  function visitPage() {
-    window.location = '#about'
-  }
+  
   return (
     <div className="hero min-h-screen" id="home">
       <div className="hero-content flex-col lg:flex-row-reverse">

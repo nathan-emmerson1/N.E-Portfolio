@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom"
+import { useEffect } from "react";
+import { Ripple, initTE } from 'tw-elements';
 
 function ProjectList() {
+  
+  // useEffect(() => {
+  //   initTE({ Ripple });
+  // }, []);
   return (
     <div className="hero min-h-screen" id="projects">
       <div className="hero-content flex-col lg:flex-row">
@@ -16,12 +22,13 @@ function ProjectList() {
          <a href="#home"> <button className="btn btn-primary">Home</button> </a>
           <br></br>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-8">
-            <Link to={'/neigbourgoods'}> <a href="https://neighbour-goods.vercel.app/">
+            <Link to={'/neighbourgoods'}> <a href="https://neighbour-goods.vercel.app/">
               {' '}
               <div className="h-32  rounded-lg bg-blue-300 content-center">
                 <img
                   src="./images/neibourgoodslogo.png"
                   alt="neibourgoodlogo"
+                  className="max-w-xs"
                  
                 ></img> 
               </div>{' '}
@@ -40,6 +47,8 @@ function ProjectList() {
                 src="./images/constbulllogo.jpg"
                 alt="constabull logo"
                 className="link link-hover"
+                // data-te-ripple-init
+                //     data-te-ripple-color="light"
               ></img> </div> 
             </div> </a> </Link> 
           </div>
