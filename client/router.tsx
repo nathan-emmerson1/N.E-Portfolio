@@ -9,6 +9,8 @@ import AboutMe from './components/Aboutme'
 import Contact from './components/Contact'
 import ProjectList from './components/Projects'
 import NeibourGood from './components/NeibourGoods'
+import ConstABull from './components/constabull'
+import CarGarage from './components/Cargarage'
 
 const router = createBrowserRouter(
   createRoutesFromElements([
@@ -18,6 +20,9 @@ const router = createBrowserRouter(
     <Route path='/contact' element={<Contact />} />,
     <Route path='/projects' element={<ProjectList />} />,
     <Route path='/neigbourgoods' element={<NeibourGood />} />,
+    <Route path='/constabull' element={<ConstABull />} />,
+    <Route path='/cargarage' element={<CarGarage />} />,
+    
     <Route path='/aboutme' element={<AboutMe />} />,
   
   ])

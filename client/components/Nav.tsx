@@ -62,11 +62,7 @@ function Nav(props: NavBarProps) {
               Projects
             </a>
           </li>
-          <li>
-            <a href="#contact" className="text-xl">
-              Contact
-            </a>
-          </li>
+          
           <li>
             <a href="https://github.com/nathan-emmerson1" className="text-xl">
               Github

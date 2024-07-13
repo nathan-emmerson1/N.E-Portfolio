@@ -13,7 +13,7 @@ function ProjectList() {
           <h1 className="text-6xl font-bold">Projects</h1>
           <p className="text-5xl"></p>
           <br></br>
-          <button className="btn btn-primary">Get Started</button>
+         <a href="#home"> <button className="btn btn-primary">Home</button> </a>
           <br></br>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-8">
             <Link to={'/neigbourgoods'}> <a href="https://neighbour-goods.vercel.app/">
@@ -26,22 +26,22 @@ function ProjectList() {
                 ></img> 
               </div>{' '}
             </a> </Link>
-            <div className="h-15 rounded-lg bg-yellow-300 content-center">
+           <Link to={'/cargarage'}> <div className="h-15 rounded-lg bg-yellow-300 content-center">
               <img
-                src="./images/otherpokemon.png"
+                src="./images/cargarage.jpg"
                 alt="pokenmonlogo"
                 className="w-45"
               ></img>
-            </div>
+            </div> </Link>
 
-            <a href="https://github.com/nathan-emmerson1/const-aBull"><div className="h-32 rounded-lg bg-gray-200 link link-hover bottom-auto">
-              
+           <Link to={'/constabull'}> <a href="https://github.com/nathan-emmerson1/const-aBull"><div className="h-32 rounded-lg bg-gray-200 link link-hover bottom-auto">
+              <div className="link link-hover">
               <img
                 src="./images/constbulllogo.jpg"
                 alt="constabull logo"
-                className="link-hover"
-              ></img>
-            </div> </a>
+                className="link link-hover"
+              ></img> </div> 
+            </div> </a> </Link> 
           </div>
         </div>
       </div>
