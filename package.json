@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "description": "React with react-query!",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-phase1.git",
+  "repository": "https://github.com/nathan-emmerson1/NEPortfolio",
   "main": "server/index.js",
   "scripts": {
     "dev": "vite",
