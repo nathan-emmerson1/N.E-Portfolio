@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom"
-import { useEffect } from "react";
-import { Ripple, initTE } from 'tw-elements';
+
 
 function ProjectList() {
   
-  // useEffect(() => {
-  //   initTE({ Ripple });
-  // }, []);
+ 
   return (
     <div className="hero min-h-screen" id="projects">
       <div className="hero-content flex-col lg:flex-row">
@@ -27,7 +24,7 @@ function ProjectList() {
               <div className="h-32  rounded-lg bg-blue-300 content-center">
                 <img
                   src="./images/neibourgoodslogo.png"
-                  alt="neibourgoodlogo"
+                  alt="neibourgood logo"
                   className="max-w-xs"
                  
                 ></img> 
@@ -47,8 +44,7 @@ function ProjectList() {
                 src="./images/constbulllogo.jpg"
                 alt="constabull logo"
                 className="link link-hover"
-                // data-te-ripple-init
-                //     data-te-ripple-color="light"
+                
               ></img> </div> 
             </div> </a> </Link> 
           </div>
