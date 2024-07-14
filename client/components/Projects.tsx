@@ -49,7 +49,7 @@ function ProjectList() {
                 <div className="h-32 rounded-lg bg-gray-200 link link-hover bottom-auto">
                   <div className="link link-hover">
                     <img
-                      src="../../images/constbulllogo.jpg"
+                      src="../images/constbulllogo.jpg"
                       alt="constabull logo"
                       className="link link-hover"
                     ></img>{' '}
