@@ -5,7 +5,7 @@ function ProjectList() {
     <div className="hero min-h-screen" id="projects">
       <div className="hero-content flex-col lg:flex-row">
         <img
-          src="../../images/project-logowithoutbackground.jpg"
+          src="../../public/project-logowithoutbackground.jpg"
           className="max-w-sm rounded-lg shadow-2xl"
           alt="projectbackground"
         />
@@ -25,7 +25,7 @@ function ProjectList() {
                 {' '}
                 <div className="h-32  rounded-lg bg-blue-300 content-center">
                   <img
-                    src="../../images/neibourgoodslogo.png"
+                    src="../../public/neibourgoodslogo.png"
                     alt="neibourgood logo"
                     className="max-w-xs"
                   ></img>
@@ -36,7 +36,7 @@ function ProjectList() {
               {' '}
               <div className="h-15 rounded-lg bg-yellow-300 content-center">
                 <img
-                  src="../../images/cargarage.jpg"
+                  src="../../public/cargarage.jpg"
                   alt="pokenmonlogo"
                   className="w-45"
                 ></img>
@@ -49,7 +49,7 @@ function ProjectList() {
                 <div className="h-32 rounded-lg bg-gray-200 link link-hover bottom-auto">
                   <div className="link link-hover">
                     <img
-                      src="../images/constbulllogo.jpg"
+                      src="../public/constbulllogo.jpg"
                       alt="constabull logo"
                       className="link link-hover"
                     ></img>{' '}
