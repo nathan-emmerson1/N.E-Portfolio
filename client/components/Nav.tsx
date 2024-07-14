@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom'
-import { NavBarProps } from '../../interfaces'
 
-function Nav(props: NavBarProps) {
-  
-  
-  
+
+function Nav() {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -58,11 +55,11 @@ function Nav(props: NavBarProps) {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-           <a href='#projects' className='text-xl'> 
+            <a href="#projects" className="text-xl">
               Projects
             </a>
           </li>
-          
+
           <li>
             <a href="https://github.com/nathan-emmerson1" className="text-xl">
               Github
