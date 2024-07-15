@@ -1,9 +1,10 @@
+import profileFileUrl from '../../public/images/profile-pic.jpg'
 function Home() {
   return (
     <div className="hero min-h-screen" id="home">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="../public/images/profile-pic.jpg"
+          src={profileFileUrl}
           alt="profile page"
           className="max-w-sm rounded-lg shadow-2xl"
         />

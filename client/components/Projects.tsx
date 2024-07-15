@@ -1,3 +1,6 @@
+import neigbourgoods from '../../public/images/neibourgoodslogo.png'
+import ConstABull from '../../public/images/constbulllogo.jpg'
+import personelProject from '../../public/images/cargarage.jpg'
 import { Link } from 'react-router-dom'
 
 function ProjectList() {
@@ -25,7 +28,7 @@ function ProjectList() {
                 {' '}
                 <div className="h-32  rounded-lg bg-blue-300 content-center">
                   <img
-                    src="../../public/neibourgoodslogo.png"
+                    src={neigbourgoods}
                     alt="neibourgood logo"
                     className="max-w-xs"
                   ></img>
@@ -36,7 +39,7 @@ function ProjectList() {
               {' '}
               <div className="h-15 rounded-lg bg-yellow-300 content-center">
                 <img
-                  src="../../public/cargarage.jpg"
+                  src={personelProject}
                   alt="pokenmonlogo"
                   className="w-45"
                 ></img>
@@ -49,7 +52,7 @@ function ProjectList() {
                 <div className="h-32 rounded-lg bg-gray-200 link link-hover bottom-auto">
                   <div className="link link-hover">
                     <img
-                      src="../public/constbulllogo.jpg"
+                      src={ConstABull}
                       alt="constabull logo"
                       className="link link-hover"
                     ></img>{' '}
