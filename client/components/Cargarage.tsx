@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import personelProject from '../../public/images/cargarage.jpg'
 function CarGarage() {
   return (
     <div
@@ -13,7 +13,7 @@ function CarGarage() {
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
           <div className="content-center">
-            <img src={"./images/cargarage.jpg"} alt="neiobourgoodlogo"></img>
+            <img src={personelProject} alt="neiobourgoodlogo"></img>
           </div>
 
           <h1 className="mb-5 text-5xl font-bold">Personal Project</h1>

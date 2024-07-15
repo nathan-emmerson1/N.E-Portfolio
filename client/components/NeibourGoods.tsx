@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import neigbourgoods from '../../public/images/neibourgoodslogo.png'
 
 function NeibourGood() {
   return (
@@ -17,7 +17,7 @@ function NeibourGood() {
         <div className="max-w-md">
           <div className='pr-8 content-center'>
             <img
-              src="./images/neibourgoodslogo.png"
+              src={neigbourgoods}
               alt="neiobourgoodlogo"
             ></img>
           </div>

@@ -1,6 +1,7 @@
 import neigbourgoods from '../../public/images/neibourgoodslogo.png'
 import ConstABull from '../../public/images/constbulllogo.jpg'
 import personelProject from '../../public/images/cargarage.jpg'
+import porjectPic from '../../public/images/project-logowithoutbackground.jpg'
 import { Link } from 'react-router-dom'
 
 function ProjectList() {
@@ -8,7 +9,7 @@ function ProjectList() {
     <div className="hero min-h-screen" id="projects">
       <div className="hero-content flex-col lg:flex-row">
         <img
-          src="../../public/project-logowithoutbackground.jpg"
+          src={porjectPic}
           className="max-w-sm rounded-lg shadow-2xl"
           alt="projectbackground"
         />
